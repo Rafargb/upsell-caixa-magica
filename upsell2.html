@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Última Etapa - Planner Pedagógico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .progress-fill-blue {
+            background: linear-gradient(90deg, #3b82f6, #60a5fa) !important;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.4) !important;
+        }
+        .progress-percentage-blue {
+            color: #3b82f6 !important;
+        }
+        .cta-button.blue {
+            background: linear-gradient(to bottom, #3b82f6, #2563eb);
+            box-shadow: 0 15px 35px -5px rgba(59, 130, 246, 0.4), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
+        .cta-button.blue:hover {
+            box-shadow: 0 20px 40px -5px rgba(59, 130, 246, 0.5), inset 0 2px 0 rgba(255,255,255,0.3);
+        }
+        .pulse-animation-blue {
+            animation: pulseBigBlue 2s infinite;
+        }
+        @keyframes pulseBigBlue {
+            0% { transform: scale(1); box-shadow: 0 15px 35px -5px rgba(59, 130, 246, 0.4); }
+            50% { transform: scale(1.02); box-shadow: 0 20px 45px -5px rgba(59, 130, 246, 0.6); }
+            100% { transform: scale(1); box-shadow: 0 15px 35px -5px rgba(59, 130, 246, 0.4); }
+        }
+        .placeholder-mockup {
+            width: 100%;
+            max-width: 500px;
+            aspect-ratio: 4/3;
+            margin: 0 auto 40px;
+            background: rgba(255, 255, 255, 0.5);
+            border: 2px dashed #cbd5e1;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #64748b;
+            font-size: 1.2rem;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <!-- Barra de Progresso -->
+        <header class="top-bar">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill progress-fill-blue" style="width: 80%;"></div>
+                </div>
+                <div class="progress-text">
+                    <span class="progress-percentage progress-percentage-blue">80% Concluído</span>
+                    <span class="progress-message">ATENÇÃO: ÚLTIMA ETAPA DO SEU PEDIDO!</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Alerta -->
+            <section class="alert-box">
+                <div class="alert-icon">⚠️</div>
+                <div class="alert-content">
+                    <h2>ESPERE: Não feche ou atualize esta página!</h2>
+                    <p>Nós já confirmamos a adição do seu material. Mas antes de enviar o seu acesso, preciso te fazer uma pergunta que vai definir como será o seu ano.</p>
+                </div>
+            </section>
+
+            <!-- Corpo da Oferta -->
+            <section class="sales-copy">
+                <p>Você acaba de tomar uma excelente decisão e garantiu o melhor acervo de atividades do mercado.</p>
+                
+                <p>Mas eu preciso te contar a verdade. Ter o melhor material do mundo não adianta nada se você não tiver tempo e organização para aplicá-lo.</p>
+                
+                <p>O que acontece com 90% das profissionais e mães é que elas abrem a pasta com centenas de atividades e simplesmente travam. A rotina já é exaustiva, e elas acabam se perguntando:</p>
+                
+                <ul class="pain-points" style="list-style: none;">
+                    <li><i>"O que eu aplico na segunda-feira?"</i></li>
+                    <li><i>"Como eu estruturo a rotina dessa criança de forma lógica?"</i></li>
+                    <li><i>"Como eu registro e acompanho a evolução do aluno?"</i></li>
+                </ul>
+                
+                <p>O resultado? Elas acabam gastando o precioso tempo de descanso no final de semana tentando organizar tudo isso do zero.</p>
+                
+                <p class="highlight-text">Se você quer evitar esse estresse, preste muita atenção. Para resolver isso definitivamente, nós criamos o Planner Pedagógico Acelerador de Rotina.</p>
+                
+                <h1 class="product-title" style="margin-bottom: 20px;">O <span>"mapa" exato</span> que você precisa</h1>
+                <p style="text-align: center; margin-bottom: 40px; font-weight: 500;">para pegar as atividades que acabou de comprar e estruturar o seu cronograma em minutos.</p>
+                
+                <!-- Mockup do Produto -->
+                <div class="mockup-container">
+                    <div class="glow-effect" style="background: radial-gradient(circle, rgba(59,130,246,0.2) 0%, rgba(255,255,255,0) 70%);"></div>
+                    <div class="placeholder-mockup">
+                        <span>[IMAGEM DO MOCKUP AQUI]</span>
+                    </div>
+                </div>
+                
+                <div class="benefits-box">
+                    <h3>Ao adicionar o Planner ao seu pedido hoje, você recebe acesso a:</h3>
+                    <ul class="benefits-list">
+                        <li><span class="check">✅</span> <strong>Rotinas Estruturadas:</strong> Sugestões práticas de como dividir as atividades na semana.</li>
+                        <li><span class="check">✅</span> <strong>Fichas de Acompanhamento:</strong> Relatórios prontos para registrar a evolução cognitiva e motora dos alunos (essencial para o trabalho com crianças atípicas).</li>
+                        <li><span class="check">✅</span> <strong>Grades de Planejamento Visual:</strong> Organize seu mês inteiro de forma rápida e sem ansiedade.</li>
+                    </ul>
+                </div>
+                
+                <div class="price-reveal">
+                    <p>Nós vendemos esse material separadamente por <span class="strike">R$ 97,00</span>. Mas, como você já garantiu seus kits hoje e eu quero que você tenha resultados rápidos (e finais de semana livres), você pode adicioná-lo ao seu pedido agora por um pagamento único de apenas <strong>R$ 27,00</strong>.</p>
+                    
+                    <div class="final-offer">
+                        <p>É literalmente o preço de um lanche para economizar centenas de horas do seu ano.</p>
+                        <strong>R$ 27,00</strong>
+                    </div>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="cta-section">
+                    <p class="urgency-warning">⚠️ <strong>Atenção:</strong> Essa é a única vez que você verá essa página.</p>
+                    
+                    <a href="#" class="cta-button blue pulse-animation-blue">
+                        <span class="cta-icon">👉</span>
+                        <span class="cta-text">SIM! QUERO ADICIONAR O PLANNER POR APENAS R$ 27</span>
+                    </a>
+                    <p class="subtext">🔒 O valor será somado automaticamente ao seu pedido</p>
+                </div>
+                
+                <!-- Link de Recusa -->
+                <div class="decline-link-container">
+                    <a href="#" class="decline-link">
+                        Não, muito obrigado. Eu prefiro gastar minhas noites e meus finais de semana montando todo o meu planejamento e as fichas dos meus alunos do zero.
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
